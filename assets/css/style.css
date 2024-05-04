@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+/* =============common=============== 같은 속성 */
+.header.fixed{
+    position: sticky;
+    top: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.main-content{
+    width: 1280px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn{
+    
+    background: rgb(66, 68, 61);
+    padding: 8px 16px;
+
+    text-align: center;
+    border-radius: 8px;
+}
+.form{
+    padding: 15px 0px;
+    text-align: center;
+    display: inline-block;
+    background: rgb(160, 156, 156);
+    font-size: 20px;
+    border-radius: 8px;
+    height: 58px;
+   width: 308px;
+   
+}
+.box{
+    table-layout: fixed;
+}
+.border{
+    width: 632px;
+    border: solid rgb(228, 224, 224);
+    padding: 10px;
+    border-radius: 10px;
+}
+/* ===============header============== */
+.header{
+    border-color: rgba(229, 231, 235, var(--tw-border-opacity));
+    align-items: center;
+    background: #b6abab;
+}
+
+.header .action a{
+    line-height: 24px;
+    margin: 10px;
+    display: block;
+}
+.header .body{
+    display: flex;
+    align-items: center;
+    height: 112px;
+}
+
+.body .action{
+   margin-left: auto;
+}
+/* =================hero================= */
+/* ===nav 태그=== */
+.nav {
+margin-top: 10px;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav a{
+    margin: 15px;
+}
+.nav a:hover{
+    color: rgb(133, 24, 24);
+    font-weight: 600;
+}
+/* ===company=== img*/
+.company{
+   margin:0 20px;
+}
+.company{
+   margin-left: 260px;
+   margin-top: 30px;
+   margin-bottom: 100px;
+}
+
+.info{
+    display: flex;
+}
+/* ==notice== */
+.notice p{
+    margin-bottom: 15px;
+}
+.notice li{
+    margin-bottom: 15px;
+}
+/* ==leaderboard== */
+.leaderboard{
+  margin-left: auto;
+}
+.leaderboard p{
+    margin-bottom: 15px;
+}
+.score{
+    margin-left: 200px;
+}
+.ns{
+    display: flex;
+}
