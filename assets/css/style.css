@@ -2,6 +2,9 @@
     box-sizing: border-box;
 }
 /* =============common=============== 같은 속성 */
+html{
+    /* background-image: url(./login-bg.png); */
+}
 .header.fixed{
     position: sticky;
     top: 0px;
@@ -51,6 +54,7 @@ a{
     background: #b6abab;
 }
 
+
 .header .action a{
     line-height: 24px;
     margin: 10px;
@@ -60,6 +64,8 @@ a{
     display: flex;
     align-items: center;
     height: 112px;
+    
+   
 }
 
 .body .action{
@@ -83,23 +89,23 @@ margin-top: 10px;
     font-weight: 600;
 }
 /* ===company=== img*/
-.company{
-   margin:0 20px;
+.hero__img{
+    text-align: center;
+    justify-content: center;
+    padding: 50px 0;
 }
-.company{
-   margin-left: 260px;
-   margin-top: 30px;
-   margin-bottom: 100px;
+.hero__img__company{
+    padding: 0 300px;
 }
+
+
 
 .info{
     display: flex;
-}
-/* ==notice== */
-.notice p{
-    margin-bottom: 15px;
+    background-color: #fcf9f9;
 }
 .notice li{
+    margin-top: 15px;
     margin-bottom: 15px;
 }
 /* ==leaderboard== */
@@ -109,9 +115,14 @@ margin-top: 10px;
 .leaderboard p{
     margin-bottom: 15px;
 }
-.score{
-    margin-left: 200px;
+.table table{
+    border-spacing: 15px;
+    border-collapse: separate;
 }
-.ns{
-    display: flex;
+.table td, th{
+    padding: 5px;
 }
+
+
+
+
